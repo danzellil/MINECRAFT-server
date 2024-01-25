@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap);
+}
+body{
+    background-image: url(https://wallpaper-house.com/data/out/8/wallpaper2you_235418.jpg);
+    background-repeat: no-repeat;
+    size: 1024px;
+}
+.reg{
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(36, 146, 237);
+    margin-top: 8vh;
+    margin-left: 35vw;
+    display: inline-block;
+    border-style: groove;
+    width: 500px;
+    height: 400px;
+}
+input {
+    user-select: none;
+    all: unset;
+  }
+#name{ 
+    position: static;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align:center;
+    height: 4vh;
+    width: 20vw;
+    margin-left: 3vmax;
+    margin-top:10vh;
+    background:linear-gradient(gray, silver);
+    border-radius: 10px;
+}
+header{
+    margin-top: 2vh;
+    text-align: center;
+    display: block;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 800;
+    font-size: 20px;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    
+}
+#pass{
+    position: static;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align:center;
+    height: 4vh;
+    width: 75%;
+    margin-left: 3vw;
+    margin-top:2vh;
+    background:linear-gradient(gray, silver);
+    border-radius: 10px;
+
+}
+button,#login{
+    position: relative;
+    user-select: none;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: aqua;
+    border-radius: 10px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Roboto Slab';
+    font-weight: 600;
+    margin-top: 11vh;
+    transform: scale(1,1);
+
+}
+button:hover#login{
+    box-shadow: 0 0 10px rgb(156, 156, 156);
+    opacity: 0.9;
+    background-color: rgb(95, 253, 253);
+    cursor: pointer;
+}
+button:active#login{
+    transform: scale(-0.99,-0.99);
+}
+
+nav {
+    margin-left: -90px;
+	width: 60px;
+
+}
+
+			
+
+nav ul {
+
+	list-style: none;
+	position: relative;
+}
+			
+
+
+			
+
+nav a {
+    border-radius: 0  20px 20px 0 ;
+    width: 65px;
+    background-color: #E64A19;
+    display:block;
+    padding:0 25px;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+			
+
+nav a:hover {
+    transition: 0.8s;
+    transform: translateX(75px); 
+	background-color: #000000;			
+}
+
+
+#nadpis{
+    padding: 0 10px;
+    color: rgb(255, 255, 255);
+
+  
+}
+p{
+margin-left: 100px;
+margin-top: 10px;
+font-family: 'Roboto';
+color: #FFF;
+}

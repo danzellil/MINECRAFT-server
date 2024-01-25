@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:'Press2' ;
+    src: url(PressStart2P-Regular.ttf);
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+.cap{
+    block-size: 30vw;
+    background:url('https://storage.c7x.dev/one1side/website/bannerlauncher11.jpg');
+    background-size: 100vmax;
+    background-repeat: no-repeat;
+}
+.cap__text{
+    position: fixed;
+    font-family: 'Press2';
+    left:10%;
+    position: absolute;
+    font-size: 2svw;
+    text-transform: uppercase;
+    top: 30vh;
+
+}
+.function_button{
+    position: relative;
+    padding-left: 85vw;
+}
+button:hover{
+    cursor:pointer;
+    background-color: rgb(233, 231, 231);
+    opacity: 0.9;
+    box-shadow: 0 0 10px silver;
+}
+button:active{
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 40px rgb(216, 112, 112);
+    background-color: rgb(139, 219, 211);
+}
+button,.Role,.Donate,.chair,.as{
+    background-color: rgb(34, 174, 113);
+    font-family: 'Press2';
+    user-select: none;
+    top: 2vh;
+    position: sticky;
+    font-size: 9px;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px silver;
+    text-transform: uppercase;
+    position: static;
+}
+.hero__cap{
+    position: absolute;
+    width: 5vw;
+    left: 30vw;
+    top: 3.5vh;
+}
+.body{
+    background-image: url(img/minecraft-grass-tree-desktop-wallpaper.jpg);
+    background-size: 100vmax;
+    background-repeat: no-repeat;
+    block-size: 100vh;
+
+}
+.hero__body{
+    position:absolute;
+    width: 20vw;
+    height: 85vh;
+    left: 70vw;
+    
+}
+
+.body__button{
+    display: inline-block;
+    position: relative;
+    top: 1vh;
+    left: 30vw;
+    border-style: double;
+    block-size: 600px;
+    width: 40vw;
+    text-align: center;
+    border-radius: 10px;
+    background:url(/img/fond3_.jpg) ;
+    background-size: 500px;
+    padding: 1vh;
+}
+
+button#purple_btn{
+    margin: 1vw;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: blueviolet;
+}
+button:hover#purple_btn{
+    transform:scale(1.1,1.1);
+    background-color: rgb(253, 79, 253);
+    box-shadow: 0 0 10px rgb(253, 79, 253), 0 0 25px rgb(253, 79, 253) ;
+}
+button:active#purple_btn{
+    transform:scale(1,1);
+}
+button#blue_btn{
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgb(28, 105, 248);
+}
+button:hover#blue_btn{
+    transform:scale(1.2,1.2);
+    background-color: rgb(12, 124, 222);
+
+    box-shadow: 0 0 10px rgb(38, 0, 255), 0 0 25px rgb(8, 81, 240) ;
+}
+button:active#blue_btn{
+    transform:scale(1,1);
+}
+#donate{
+    text-transform: uppercase;
+    display: none;
+    position: relative;
+    font-family: 'Russo One', sans-serif;
+    margin-top:100px;
+    font-size: 40px;
+    margin-right: 350px;
+    text-align: left;
+    transition:2s;
+
+
+}
+#donate > p{
+    line-height: 10px;
+    display: block;
+    background-color: rgb(80,200,120);
+    width: 12vw;
+    padding: 15px 15px;
+    border-radius: 15px;
+    
+}
+#donate > h1{
+    display: inline-block;
+    position: absolute;
+    font-size: 40px;
+    margin-top: -45px;
+    margin-left: 350px;
+
+}
+#role{
+    display: block;
+}
+#role ul > li {
+    font-family:'Russo One', sans-serif;
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+
+}
