@@ -1,15 +1,15 @@
 
+
 function toggle_visibility() {
-    var e = document.getElementById("donate");
-    if(e.style.display == 'block')
-       e.style.display = 'none';
-    else
-       e.style.display = 'block';
-}
-function toggle_visibility2() {
-    var e = document.getElementById("role");
-    if(e.style.display == 'block')
-       e.style.display = 'none';
-    else
-       e.style.display = 'block';
+   if (document.getElementById('donate')) {
+
+       if (document.getElementById('donate').style.display == 'none') {
+           document.getElementById('donate').style.display = 'block';
+           document.getElementById('role').style.display = 'none';
+       }
+       else {
+           document.getElementById('donate').style.display = 'none';
+           document.getElementById('role').style.display = 'block';
+       }
+   }
 }

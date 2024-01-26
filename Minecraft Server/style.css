@@ -31,6 +31,7 @@ body{
     position: relative;
     padding-left: 85vw;
 }
+
 button:hover{
     cursor:pointer;
     background-color: rgb(233, 231, 231);
@@ -100,6 +101,7 @@ button#purple_btn{
     text-decoration: none;
     cursor: pointer;
     background-color: blueviolet;
+    
 }
 button:hover#purple_btn{
     transform:scale(1.1,1.1);
@@ -159,12 +161,38 @@ button:active#blue_btn{
 
 }
 #role{
-    display: block;
+    display: none;
 }
-#role ul > li {
+ul > li {
     font-family:'Russo One', sans-serif;
     list-style: none;
     font-size: 20px;
     text-align: left;
+    display: none;
+}
+#Vlastelin_role {
+    border-radius:10px ;
+    background-color: aliceblue;
+    position:relative;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    padding-right: 75%;
+    margin-top: 2svh;
+    border-style: solid;
+    color: rgb(0, 0, 0);
 
+}
+#Vlastelin_role > a{  
+    border-radius: 10px;
+    color: black;text-decoration: none;
+    background-color:white;
+    
+}
+a > img{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    margin-left:28.5svw;
+    margin-top: 1svh;
 }
